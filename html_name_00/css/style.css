@@ -1,0 +1,380 @@
+/* ここから下に記載していく */
+
+body{
+    /* width:1200px;  */
+    /*フォント探す*/
+   width: 100%;
+   font-family: "MS Pゴシック"
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    margin: 40px;
+}
+
+.menu{
+    margin-left: 100px;
+    text-align: right;
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 21px;
+    font-family: meiryo;
+}
+
+.choice{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:  50px; 
+    text-align: right;
+    font-family:  Meiryo;
+}
+
+.mainbg {/*親div*/
+    text-align: center;
+    position: relative;
+    width: 100%;
+    /* width: 800px; */
+    /* text-align: center; */
+    }
+    /* セカイを変えるチーズを作ろう */
+ .mainmessage {
+    position: absolute;
+    color: white;/*文字は白に*/
+    font-weight: bold; 
+    font-size: 40px;/*サイズ2倍*/
+    
+    /* font-family :Quicksand, sans-serif;Google Font */
+    /* top: 30%;
+    left: 100px; */
+    top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+     width:800px;
+     height:230px;
+     font-family: "MS Pゴシック"
+    }
+
+    /* チーズ職人養成学校 */
+ .submessage{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    
+    top: 400px;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+     width:800px;
+     height:230px;
+     font-family: "MS Pゴシック"
+
+ }
+ 
+ .aboutcontents{
+    text-align: center;
+    font-style: 16px;
+    line-height: 20px;
+ }
+
+#about0{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: rgb(225, 190, 102);
+    font-weight: bold; 
+}
+#about1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#about2{
+    margin-bottom: 40px;
+}
+
+#about3{
+    margin-top: 40px;
+}
+
+#about4{
+    margin-bottom: 80px;
+}
+
+.aboutimages{
+    display: flex;
+}
+
+.coursecontents{
+    text-align: center;
+    font-style: 16px;
+    line-height: 20px;
+ }
+
+ #course0{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold; 
+}
+
+#course1{
+    margin-top: 30px;
+}
+
+#course2{
+    margin-bottom: 60px;
+}
+
+.courseintro1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.course_1_img{
+   height: 400px;
+   width: 580px;
+}
+.course_1{
+    background-color: rgb(219, 219, 219);
+    height: 400px;
+    width: 580px;
+}
+.course_1>h1{
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+   
+}
+
+.course_1>h2{
+    margin-bottom: 120px;
+    margin-left: 50px;
+    margin-right: 80px;
+    line-height: 20px;
+}
+
+
+.newscontents{
+    text-align: center;
+    font-style: 16px;
+ }
+
+#news0{
+margin-top: 60px;
+margin-bottom: 30px;
+color: rgb(225, 190, 102);
+    font-weight: bold; 
+}
+
+#news1{
+    margin-bottom: 60px;
+    
+}
+
+.newslist{
+    display: flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+    /* max-width:600px; 要素の幅を指定する（固定幅ならwidth:600px;） */
+    /* margin: auto; ブロック要素の中央揃え */
+    /* align-content: center; */
+    line-height: 20px;
+}
+
+.newsmessage:hover {
+    background: rgb(237, 233, 233);
+    box-shadow: 5px 5px 10px rgb(167, 163, 163);
+}
+
+.newsmessage{
+    width: 300px;
+}   
+
+.newsdate{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.morebutton{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    height: 60px;
+    font-style: 60px;
+    margin: auto;
+    padding: auto;
+    font-weight: bold;
+    border: 2px solid #fde236;
+    background: #fde236;
+    color: #fff;
+    
+    margin-top: 60px;
+}
+
+.morebutton:hover {
+    color: #9b6a15;
+    background: #fff;
+}
+.accessinfo{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgb(245, 241, 241);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.accessinfo>h1{
+    font-weight: bold; 
+}
+.accessinfo>h2{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.accessinfo>img{
+    margin-bottom: 60px;
+}
+
+.infomation{
+    margin-top: 30px;
+    
+}
+
+.infocategory{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 60px;
+}
+
+.infoleft{
+    text-align: left;
+}
+.inforight{
+    text-align: left;
+}
+
+.contactinfo{
+    text-align: center;
+   line-height: 20px;
+}
+.contactinfo>h1{
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contactinfo>h2{
+    
+}
+
+.contactinfo>h3{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contactinfo>h4{
+    margin-bottom: 70px;
+}
+
+.form{
+    width: 568px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-right: 0;
+    border-left: 0;  
+    box-sizing: border-box;
+}
+
+.form-table{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.form-item {
+    text-align: left; 
+    width: 240px; 
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-left: 0;
+   font-weight: bold;
+  }
+  
+  .form-body {
+    width: 328px; 
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-right: 0;}
+
+    .form-text {
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+       
+        max-width: 400px;
+      }
+
+      .form-options  {
+        margin-top: 24px;
+      }
+      
+      .form-options-txt {
+        margin-left: 5px;
+      }
+    .text-area{
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+.submitbutton{
+        display: block;
+        text-align: center;
+       
+        text-decoration: none;
+        width: 300px;
+        height: 60px;
+        font-style: 60px;
+        margin: auto;
+        padding: 1rem 1rem;
+        font-weight: bold;
+        border: 2px solid #fde236;
+        background: #fde236;
+        color: #fff;
+        
+        margin-top: 30px;
+        margin-bottom: 140px;
+    }
+    .submitbutton:hover {
+        
+        color: #9b6a15;
+        background: #fff;
+    }
+
+#footer{
+    background-color: rgb(144, 144, 144);
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footer>p{
+    text-align: center;
+}
+
